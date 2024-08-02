@@ -21,7 +21,7 @@ updates:
       - 'P-manBrown'
     ignore:
       - dependency-name: 'mysql'
-        versions: ['>8.4.0']
+        versions: ['>=8.5']
     commit-message:
       prefix: 'build'
     target-branch: 'main'
